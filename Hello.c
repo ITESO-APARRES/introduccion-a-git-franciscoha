@@ -11,6 +11,3 @@ int main(void){
 void decirHola(char *nombre){
     printf("hola %s como estas?",nombre);
 }
-void decirAdios(char *nombre){
-    printf("Adios %s",nombre);
-}
