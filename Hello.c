@@ -2,12 +2,13 @@
 #include <stdio.h>
 
 int main(void){
-    decirHola("francisco");
-    decirAdios("francisco");
+    print("diciendo hola",decirHola("francisco"));
+    
     return 0;
 } 
 
 }
-void decirHola(char *nombre){
+char* decirHola(char *nombre){
     printf("hola %s como estas?",nombre);
+    return nombre;
 }
